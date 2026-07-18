@@ -85,7 +85,7 @@ function createWindow(): void {
     selectBluetoothCallback = callback;
     
     const targetDevice = devices.find(device => 
-      device.deviceName === 'Water36088'
+      device.deviceName === 'Water35500'
     );
     
     if (targetDevice) {
